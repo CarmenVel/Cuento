@@ -1,0 +1,105 @@
+@import url('https://use.typekit.net/ffl5gqt.css');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'garamond', serif;
+  background-color: #f4f1e1;
+  background-image: url('https://www.transparenttextures.com/patterns/old-mathematics.png');
+  line-height: 1.6;
+  padding: 30px;
+  font-size: 18px;
+  color: #5a3d29;
+  text-align: justify;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  font-family: 'trajan', serif;
+  color: #8b4513;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+  border-bottom: 3px double #a67c52;
+  padding-bottom: 10px;
+}
+
+section {
+  margin-bottom: 40px;
+  padding: 25px;
+  background-color: rgba(250, 240, 215, 0.85);
+  border: 2px solid #d8b37f;
+  border-radius: 12px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+h2 {
+  font-family: 'trajan', serif;
+  font-size: 30px;
+  color: #5a3d29;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+  background: linear-gradient(45deg, #d1a15c, #b58e39);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.15);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+#dragon-chino img {
+    float: left;
+    width: 40%;
+    height: auto;
+    margin-right: 30px;
+    border-radius: 10px;
+  }
+  
+  #dragon-occidente img {
+    float: left;
+    width: 40%;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 10px;
+  }
+  
+
+
+
+p {
+  font-size: 19px;
+  font-family: 'garamond', serif;
+  color: #4a3628;
+  margin-bottom: 20px;
+  line-height: 1.75;
+  position: relative;
+  text-align: justify;
+}
+
+section:first-of-type p:first-of-type::first-letter {
+    font-family: 'trajan', serif;
+    font-size: 4em;
+    float: left;
+    line-height: 1; 
+    margin: 0 16px 8px 0;
+    padding: 6px 4px 4px 2px;
+    background-size: cover;
+    background-clip: text;
+    text-shadow: 0 0 3px rgba(65, 47, 30, 0.6),1px 1px 1px rgba(159, 73, 16, 0.3);
+    border-radius: 4px;
+    margin-left: -1;
+}
+
+
+
+section p:last-child {
+  margin-bottom: 0;
+}
